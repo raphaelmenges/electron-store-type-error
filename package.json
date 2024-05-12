@@ -52,6 +52,7 @@
     "vue-tsc": "2.0.17"
   },
   "dependencies": {
+    "electron-store": "^9.0.0",
     "electron-updater": "6.1.8"
   }
 }

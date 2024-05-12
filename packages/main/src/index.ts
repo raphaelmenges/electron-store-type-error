@@ -3,6 +3,7 @@ import './security-restrictions';
 import {restoreOrCreateWindow} from '/@/mainWindow';
 import {platform} from 'node:process';
 import updater from 'electron-updater';
+import './@/store';
 
 /**
  * Prevent electron from running multiple instances.
